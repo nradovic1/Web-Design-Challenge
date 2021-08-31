@@ -1,63 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design Challenge</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Web-Design Project</title>
 </head>
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="https://nradovic1.github.io/Web-Design-Challenge/">Latitude</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="https://nradovic1.github.io/Web-Design-Challenge/fig-1.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="https://nradovic1.github.io/Web-Design-Challenge/fig-2.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+  </ul>
+
+  <br>
+  <br>
+  <br>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2>Summary: Latitude vs X</h2>
+        <img id="bio-image" src="Fig1.png">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <br>
+      <div class='row'>
+        <div class="col col-4 col-md-6">
+          <a href="fig-1.html"><img id="bio-image" src="Fig1.png"></a>
         </div>
-      </nav> -->
-      <div class="container">
-        <nav class="navbar">
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      
+        <div class="col col-3 col-md-6">
+          <a href="fig-2.html"><img id="bio-image" src="/Users/novakradovic/Git/Web-Design-Challenge/Resources/assets/images/Fig2.png"></a>
+        </div>
+        <div class="col col-3 col-md-6">
+          <a href="fig-3.html"><img id="bio-image" src="/Users/novakradovic/Git/Web-Design-Challenge/Resources/assets/images/Fig3.png"></a>
+        </div>
+        <div class="col col-3 col-md-6">
+          <a href="fig-4.html"><img id="bio-image" src="/Users/novakradovic/Git/Web-Design-Challenge/Resources/assets/images/Fig4.png"></a>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- <div class="container"></div>
+
+  <div class="row">
+    <div class="col-md-9">
+      <img id="bio-image" src="Fig1.png" width="240" ALIGN="left">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti illo voluptates blanditiis nisi! Ullam dolore aspernatur, ratione error similique veniam iusto, labore repellat eaque nostrum optio doloribus illo nihil dolor?</p>
+    </div>
+    <div class="col-md-3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sequi ex quam quia iste, nemo molestias dolor, qui dolorem voluptatibus ipsa maxime voluptas et deserunt porro repellendus veritatis nesciunt quisquam.</p>
+    </div>
+  </div>
+  </div> -->
+
+
+  
 </body>
 </html>
